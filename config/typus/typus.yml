@@ -4,7 +4,9 @@ AdminUser:
   fields:
     default: first_name, last_name, role, email, locale
     list: email, role, status
-    form: first_name, last_name, role, email, password, password_confirmation, locale, status
+    new: first_name, last_name, email, password, password_confirmation, locale, status
+    edit: first_name, last_name, role, email, password, password_confirmation, locale, status
+    show: first_name, last_name, email, created_at
     options:
       selectors: role, locale
       booleans:
