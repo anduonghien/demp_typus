@@ -44,4 +44,4 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-gem 'typus', git: 'https://github.com/typus/typus.git', branch: '4-2-stable'
+gem "typus", github: "typus/typus"
